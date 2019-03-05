@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="120dp"
+    android:minHeight="120dp"
+    android:updatePeriodMillis="7200000"
+    android:initialLayout="@layout/vertretungsplan_appwidget"
+    android:configure="de.jweimar.android.vertretungsplan.Configure" 
+    android:previewImage="@drawable/widgetpreview"
+    android:resizeMode="horizontal|vertical" 
+    android:minResizeWidth="100dp" 
+    android:minResizeHeight="50dp"
+    >  
+   <!-- 
+   
+   --> 
+
+
+</appwidget-provider>

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/weimar/Projects/Android/studio/VertretungsplanGSCloud/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/home/weimar/Projects/Android/studio/VertretungsplanGSCloud/app/src/main/res/values-v11/mystyles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "70",
+                        "endOffsets": "121"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "63",
+                        "endOffsets": "114"
+                    }
+                }
+            ]
+        }
+    ]
+}

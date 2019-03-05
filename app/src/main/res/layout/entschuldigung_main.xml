@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Entschuldigung" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/text1" />
+
+    <Spinner
+        android:id="@+id/spinnergeschlecht"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:entries="@array/geschlecht" />
+
+    <EditText
+        android:id="@+id/nameField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinnergeschlecht"
+        android:layout_alignRight="@+id/spinnergeschlecht"
+        android:layout_below="@+id/spinnergeschlecht"
+        android:ems="10"
+        android:hint="Vorname Nachname"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/klasseField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nameField"
+        android:layout_below="@+id/nameField"
+        android:ems="5"
+        android:hint="Klasse" />
+
+        <EditText
+        android:id="@+id/klassenlehrerField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/nameField"
+        android:layout_alignTop="@+id/klasseField"
+        android:layout_toRightOf="@+id/klasseField"
+        android:ems="10"
+        android:hint="Klassenlehrer" />
+
+         <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/klasseField"
+        android:layout_alignTop="@+id/grundField"
+        android:text="wegen"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+    
+    <EditText
+        android:id="@+id/grundField"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignRight="@+id/nameField"
+        android:layout_below="@+id/klassenlehrerField"
+        android:layout_toRightOf="@+id/textView3"
+        android:ems="10"
+        android:hint="Grund" />
+
+    <RadioGroup
+        android:id="@+id/datumRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/klasseField"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/grundField"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/heute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="heute" />
+
+        <RadioButton
+            android:id="@+id/morgen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="morgen" />
+
+        <RadioButton
+            android:id="@+id/vonbis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="von..bis.." />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/datumRadioGroup"
+        android:layout_alignRight="@+id/nameField"
+        android:layout_below="@+id/datumRadioGroup"
+        android:text="@string/text2"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/erzieherField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:ems="10"
+        android:hint="Name Erziehungsberechtigt"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/sendeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_marginBottom="10dp"
+        android:text="Weiter" />
+
+
+</RelativeLayout>

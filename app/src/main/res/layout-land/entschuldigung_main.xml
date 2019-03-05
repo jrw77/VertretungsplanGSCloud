@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <RadioGroup
+        android:id="@+id/datumRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/klasseField"
+        android:layout_below="@+id/grundField"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/heute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="heute"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/morgen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="morgen"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/vonbis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="von..bis.."
+            android:textSize="12sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/sendeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/nameField"
+        android:layout_marginBottom="10dp"
+        android:text="Senden" />
+
+    <EditText
+        android:id="@+id/klassenlehrerField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/klasseField"
+        android:layout_toLeftOf="@+id/sendeButton"
+        android:layout_toRightOf="@+id/klasseField"
+        android:ems="10"
+        android:hint="Klassenlehrer" />
+
+    <EditText
+        android:id="@+id/nameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/spinnergeschlecht"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/spinnergeschlecht"
+        android:ems="10"
+        android:hint="Vorname Nachname"
+        android:inputType="textPersonName"
+        android:singleLine="true" />
+
+    <Spinner
+        android:id="@+id/spinnergeschlecht"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/klasseField"
+        android:layout_below="@+id/textView1"
+        android:entries="@array/geschlecht" />
+
+    <EditText
+        android:id="@+id/klasseField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/spinnergeschlecht"
+        android:ems="5"
+        android:hint="Klasse" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/grundField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/klassenlehrerField"
+        android:ems="10"
+        android:hint="Grund" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/text1" />
+
+    <EditText
+        android:id="@+id/erzieherField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/datumRadioGroup"
+        android:layout_alignRight="@+id/datumRadioGroup"
+        android:layout_alignTop="@+id/sendeButton"
+        android:ems="10"
+        android:hint="Name Erziehungsberechtigt"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grundField"
+        android:layout_toRightOf="@id/datumRadioGroup"
+        android:text="@string/text2"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/klassenlehrerField"
+        android:layout_alignBottom="@+id/klassenlehrerField"
+        android:layout_alignLeft="@+id/sendeButton"
+        android:layout_marginLeft="20dp"
+        android:text="wegen"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

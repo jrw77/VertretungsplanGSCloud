@@ -1,0 +1,20 @@
+# Referenced at /home/weimar/Projects/Android/studio/VertretungsplanGSCloud/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:112
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at /home/weimar/Projects/Android/studio/VertretungsplanGSCloud/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:53
+-keep class de.jweimar.android.vertretungsplan.CodeEntry { <init>(); }
+# Referenced at /home/weimar/Projects/Android/studio/VertretungsplanGSCloud/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:45
+-keep class de.jweimar.android.vertretungsplan.Configure { <init>(); }
+# Referenced at /home/weimar/Projects/Android/studio/VertretungsplanGSCloud/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:58
+-keep class de.jweimar.android.vertretungsplan.Entschuldigung { <init>(); }
+# Referenced at /home/weimar/Projects/Android/studio/VertretungsplanGSCloud/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:92
+-keep class de.jweimar.android.vertretungsplan.GcmBroadcastReceiver { <init>(); }
+# Referenced at /home/weimar/Projects/Android/studio/VertretungsplanGSCloud/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:33
+-keep class de.jweimar.android.vertretungsplan.InfoScreen { <init>(); }
+# Referenced at /home/weimar/Projects/Android/studio/VertretungsplanGSCloud/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:102
+-keep class de.jweimar.android.vertretungsplan.NotificationCancelReceiver { <init>(); }
+# Referenced at /home/weimar/Projects/Android/studio/VertretungsplanGSCloud/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:67
+-keep class de.jweimar.android.vertretungsplan.Provider { <init>(); }
+# Referenced at /home/weimar/Projects/Android/studio/VertretungsplanGSCloud/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:76
+-keep class de.jweimar.android.vertretungsplan.Provider2 { <init>(); }
+# Referenced at /home/weimar/Projects/Android/studio/VertretungsplanGSCloud/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:110
+-keep class de.jweimar.android.vertretungsplan.WidgetUpdateService { <init>(); }

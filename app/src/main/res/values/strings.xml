@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VertretungsplanGS</string>
+    <string name="Klasse">Klasse</string>
+    <string name="Vertretungen">Vertretungen</string>
+<string name="InfoText">Diese Anwendung erzeugt ein Widget auf deinem Home-screen, 
+ das immer den aktuellen Vertretungsplan der großen Schule Wolfenbüttel anzeigt.
+\n<b>Einstellen</b> 
+\n\u25c6    Wähle einen freien Platz auf deinem Home-Bildschirm aus (ein Feld hoch und zwei Felder breit reicht!).
+Drücke so lange, bis ein Auswahldialog erscheint. Wähle  <i>Widgets</i>, dann unter den Widgets 
+<i>Vertretungsplan</i>. Es gibt davon zwei Einträge, der erste ist für ein 2*1 Widget, der zweite für ein größeres 2*2 Widget.
+
+\n\u25c6    Du bekommst einen Konfigurationsdialog, wo Du deine Klasse auswählen musst.
+Hier bekommst du auch gleich die Übersicht angezeigt. Wenn du diese Konfiguration mit OK  abgeschlossen hast, 
+dann wird auf dem Home-Bildschirm der Vertretungsplan des  aktuellen Tages angezeigt, ab Mittags 13:00 der des folgenden Tages.
+\n\u25c6  Die App wird für dich in den kommenden Jahren kostenfrei bleiben.
+\n\u25c6  Neues: 1.1: Es ist eine Anwendung integriert, um bei Krankheit eine Entschuldigungsmail an das Sekretariat vorzubereiten. 
+Sie ist unter "Menu" bzw. im Actionbar zu erreichen. Button Pause (||): in den Ferien schaltest du damit die Abfrage aus.
+\n\u25c6  Neues: 1.4: Ein Schnellzugang zum InetMenu ist eingebaut. Für Familien mit mehr als einem Kind (in verschiedenen Klassen): 
+Starten Sie die Vertretungsplan-App jeweils vom Widget, dann kann der Browser sich für jedes Kind ein eigenes Passwort merken.
+\n\u25c6  Neues: 1.4: Das Widget ist nun auch für den Lock-Screen, also den Entsperr-Bildschirm geeignet (Ab Android 4.2).
+\n\u25c6  Neues: 2.0: Die Benachrichtigung über Änderungen am Vertretungsplan erfolgt über Google Cloud Messaging zeitnah 
+(innerhalb von maximal 10 Minuten).
+\n\u25c6  Neues: 2.1: Fehlerkorrekturen für Android 6.0. Bei Problemen bitte "Schule wechseln" probieren.
+\n\u25c6  Neues: 3.0: Notwendige Anpassungen an Android 8 und 9.
+
+© J. Weimar 2012-2019 (jrw@andapp.de)</string>
+<string name="InfoCodeText">Gebe oben den Zugangscode ein (10 Zeichen), den du von deiner Schule bekommst, 
+meistens im Passwort-geschützen Bereich, wie der Vertetungsplan.
+Wenn deine Schule nicht die Vertretungsplan-Software von UNTIS 
+verwendet, dann kannst du diese App leider nicht verwenden. Ansonsten frage unter "vertretungsplan@andapp.de", 
+ob deine Schule angebunden werden kann.
+</string>
+<string name="CodeTitel">Zugangs-Code</string>
+<string name="CodeName">Code</string>
+
+<string name="alert_dialog_ok">OK</string>
+<string name="alert_dialog_cancel">Abbrechen</string>
+<string name="plan_ohne_widget">Ohne Widget</string>
+<string name="logo">logo</string>
+<string name="menu_about">Infos</string>
+<string name="menu_schulwechsel">Schule wechseln</string>
+<string name="menu_entschuldigung">Entschuldigung</string>
+<string name="menu_playstore">Playstore-link weitergeben</string>
+<string name="menu_passwortweiter">Passwort weitergeben</string>
+<string name="menu_inetmenu">Inet Menu</string>
+<string name="entschuldigung_name">EntschuldigungGS</string>
+    <string name="menu_settings">Settings</string>
+     <string name="text0">Sehr geehrte Damen und Herren,\n</string>
+    <string name="text1">Hiermit möchte ich Ihnen mitteilen, dass</string>
+    <string name="text2">nicht am Unterricht teilnehmen kann. Eine schriftliche Entschuldigung 
+        	an den Klassenlehrer folgt im Schulplaner.</string>
+    <string-array name="geschlecht">
+        <item >Kind</item>
+        <item >Tochter</item>
+        <item >Sohn</item>
+        <item >Ich</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/ENTSCHULDIGUNG_ID" android:title="@string/menu_entschuldigung" android:icon="@drawable/entschuldigung_menu" android:showAsAction="ifRoom"></item>
+    <item android:id="@+id/ABOUT_ID" android:title="@string/menu_about" android:icon="@android:drawable/ic_menu_info_details"></item>
+    <item android:id="@+id/playstore_menu" android:title="@string/menu_playstore" android:icon="@android:drawable/ic_menu_send"></item>
+    <item android:id="@+id/passwortweiter_menu" android:title="@string/menu_passwortweiter" android:icon="@android:drawable/ic_menu_share"></item>
+     <item android:id="@+id/SCHULWECHSEL_ID" android:title="@string/menu_schulwechsel" android:icon="@android:drawable/ic_menu_preferences"></item>
+     <item android:id="@+id/INETmenu_ID" android:title="@string/menu_inetmenu" android:icon="@drawable/ic_inetmenu" android:showAsAction="ifRoom"></item>
+</menu>
